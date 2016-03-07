@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Class Checkin">
+        <menu>
+            <item
+                android:id="@+id/checkin"
+                android:icon="@drawable/ic_event"
+                android:title="Check In" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/MainPage"
+            android:icon="@drawable/ic_action_home"
+            android:title="My Home" />
+        <item
+            android:id="@+id/Class"
+            android:icon="@drawable/ic_action_book"
+            android:title="CS4261" />
+        <item
+            android:id="@id/logout"
+            android:icon="@drawable/ic_action_exit"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>
